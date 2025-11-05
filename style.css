@@ -146,3 +146,109 @@
     box-sizing: border-box;
     padding: 2px;
 }
+.card-container{
+  margin:36px;
+  padding: 36px;
+  display: flex;
+  gap: 96px;
+  justify-content: center;
+  align-items: center;
+  .image{
+    height: auto;
+    width: 200px;
+  }
+}
+.card{
+  margin: 8px;
+  width: 250px;
+}
+.text-side-image{
+  gap: 96px;
+  margin:36px;
+  padding: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  #gimme-gap{
+    margin: 8px;
+  }
+  .findBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(217, 20, 0);
+  padding: 16px;
+  border-radius: 50px;
+  color: white;
+  width: 200px;
+  }
+}
+.image-side-text{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;  
+  flex-direction: row;
+  font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+    gap: 96px;
+    margin:36px;
+  padding: 36px;
+   h2{
+    font-size: 2.5rem;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  #gimme-gap{
+    margin: 8px;
+  }
+  .findBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(217, 20, 0);
+  padding: 16px;
+  border-radius: 50px;
+  color: white;
+  width: 200px;
+}
+}
+.text2{
+  background: url(https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  gap: 4px;
+  font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.tex-2-container{
+  background-color:rgba(30, 30, 30, 0.6);
+  z-index: 2;
+  height: 100%;
+  position: relative;
+  
+  width: 100%;
+}
