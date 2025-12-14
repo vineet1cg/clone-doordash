@@ -422,14 +422,15 @@ grid-row-gap: 36px;
   margin-top: 20px;
   cursor: pointer;
 }
-.chevron {
+.see-less .chevron {
   display: inline-block;
   font-size: 2.2rem;
   color: #444;
   transition: transform 0.2s;
+  transform: rotate(0deg); /* Default: points down (See more) */
 }
-.see-less:hover .chevron {
-  transform: translateY(-2px);
+.neighborhood-section.expanded .see-less .chevron {
+  transform: rotate(180deg); /* Points up when expanded (See less) */
 }
 
 .main-footer {
@@ -593,5 +594,30 @@ grid-row-gap: 36px;
   filter: brightness(1.5) invert(1);
   opacity: 1;
 }
+
+/* See less/more functionality styles */
+.city-grid .hidden-items {
+  display: none; /* Hidden by default */
+}
+
+.neighborhood-section.expanded .city-grid .hidden-items {
+  display: grid; /* Show when expanded */
+}
+
+.neighborhood-section.expanded .see-less .chevron {
+  transform: rotate(180deg); /* Rotate chevron up when expanded (showing "See less") */
+}
+
+/* Initial state for chevron, pointing up for "See less" */
+.see-less .chevron {
+  transform: rotate(0deg); /* Points down initially */
+  transition: transform 0.2s;
+}
+
+/* This class will be added by JS when showing "See more" */
+.see-less.collapsed .chevron {
+  transform: rotate(180deg); /* Points up when collapsed (showing "See more") */
+}
+
 
 
