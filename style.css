@@ -7,6 +7,11 @@
     "Segoe UI Symbol";
 }
 
+body {
+  font-size: 16px; /* Base font size */
+  line-height: 1.5; /* Default line height */
+}
+
 /* General Transitions */
 .signIn,
 .signUp,
@@ -69,9 +74,10 @@
   align-items: center;
   cursor: pointer;
   background-color: rgb(217, 20, 0);
-  padding: 16px;
+  padding: 1rem; /* 16px */
   border-radius: 50px;
-  width: 100px;
+  width: 6.25rem; /* 100px */
+  font-size: 1rem; /* Base font size */
 }
 .signUp {
   display: flex;
@@ -79,10 +85,11 @@
   align-items: center;
   cursor: pointer;
   background-color: rgb(255, 255, 255);
-  padding: 16px;
+  padding: 1rem; /* 16px */
   border-radius: 50px;
   color: rgb(96, 96, 96);
-  width: 100px;
+  width: 6.25rem; /* 100px */
+  font-size: 1rem; /* Base font size */
 }
 .hero-section {
   height: auto;
@@ -119,31 +126,31 @@
   align-items: center;
   background: white;
   border-radius: 40px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
-  padding: 0 8px;
-  width: 400px;
-  height: 56px;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.05); /* 0 4px 16px */
+  padding: 0 0.5rem; /* 0 8px */
+  width: 25rem; /* 400px */
+  height: 3.5rem; /* 56px */
 }
 
 .search-icon {
-  font-size: 22px;
-  color: #db3c1a; /* matches the button color */
-  margin-right: 12px;
+  font-size: 1.375rem; /* 22px */
+  color: #db3c1a;
+  margin-right: 0.75rem; /* 12px */
 }
 
 .search-input {
   flex: 1;
   border: none;
   outline: none;
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   background: transparent;
-  padding: 0 8px;
+  padding: 0 0.5rem; /* 0 8px */
 }
 
 .search-btn {
-  width: 46px;
-  height: 46px;
-  background: #db3c1a; /* matches the orange button */
+  width: 2.875rem; /* 46px */
+  height: 2.875rem; /* 46px */
+  background: #db3c1a;
   border: none;
   border-radius: 50%;
   display: flex;
@@ -153,19 +160,16 @@
   transition: background 0.2s;
 }
 
-.search-btn:hover {
-  background: #f45b2a;
-}
-
 .arrow-icon {
   color: white;
-  font-size: 22px;
+  font-size: 1.375rem; /* 22px */
   font-weight: bold;
 }
+
 .mdi--account-outline {
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem; /* 24px */
+  height: 1.5rem; /* 24px */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m0 7c2.67 0 8 1.33 8 4v3H4v-3c0-2.67 5.33-4 8-4m0 1.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1'/%3E%3C/svg%3E");
@@ -174,7 +178,7 @@
     cursor: pointer;
     color: black;
     font-size: 0.8rem;
-    margin: 8px;
+    margin: 0.5rem; /* 8px */
     font-weight: 500;
 }
 .signINbtn{
@@ -187,25 +191,25 @@
     padding: 2px;
 }
 .card-container{
-  margin:36px;
-  padding: 36px;
+  margin:2.25rem; /* 36px */
+  padding: 2.25rem; /* 36px */
   display: flex;
-  gap: 96px;
+  gap: 6rem; /* 96px */
   justify-content: center;
   align-items: center;
   .image{
     height: auto;
-    width: 200px;
+    width: 12.5rem; /* 200px */
   }
 }
 .card{
-  margin: 8px;
-  width: 250px;
+  margin: 0.5rem; /* 8px */
+  width: 15.625rem; /* 250px */
 }
 .text-side-image{
-  gap: 96px;
-  margin:36px;
-  padding: 36px;
+  gap: 6rem; /* 96px */
+  margin:2.25rem; /* 36px */
+  padding: 2.25rem; /* 36px */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -219,7 +223,7 @@
     font-size: 1.5rem;
   }
   #gimme-gap{
-    margin: 8px;
+    margin: 0.5rem; /* 8px */
   }
   .findBtn{
   display: flex;
@@ -227,10 +231,10 @@
   align-items: center;
   cursor: pointer;
   background-color: rgb(217, 20, 0);
-  padding: 16px;
+  padding: 1rem; /* 16px */
   border-radius: 50px;
   color: white;
-  width: 200px;
+  width: 12.5rem; /* 200px */
   font-weight: 700;
   }
 }
@@ -242,9 +246,9 @@
   font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
-    gap: 96px;
-    margin:36px;
-  padding: 36px;
+    gap: 6rem; /* 96px */
+    margin:2.25rem; /* 36px */
+  padding: 2.25rem; /* 36px */
    h2{
     font-size: 2.5rem;
   }
@@ -252,7 +256,7 @@
     font-size: 1.5rem;
   }
   #gimme-gap{
-    margin: 8px;
+    margin: 0.5rem; /* 8px */
   }
   .findBtn{
   display: flex;
@@ -260,10 +264,10 @@
   align-items: center;
   cursor: pointer;
   background-color: rgb(217, 20, 0);
-  padding: 16px;
+  padding: 1rem; /* 16px */
   border-radius: 50px;
   color: white;
-  width: 200px;
+  width: 12.5rem; /* 200px */
 }
 }
 .grocery-hero {
@@ -305,7 +309,7 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 1.125rem; /* 18px */
 }
 
 .hero-content h2 {
@@ -320,17 +324,16 @@
 
 .hero-content p {
   font-size: 1.12rem;
-  font-weight: 400;
-  margin-bottom: 10px;
+  font-bottom: 0.625rem; /* 10px */
 }
 
 .shop-btn {
-  width: 400px; 
+  width: 25rem; /* 400px */
   background: #f82c1a;
   color: #fff;
-  padding: 18px 36px;
+  padding: 1.125rem 2.25rem; /* 18px 36px */
   border: none;
-  border-radius: 32px;
+  border-radius: 2rem; /* 32px */
   font-size: 1.15rem;
   font-weight: 600;
   cursor: pointer;
@@ -346,18 +349,18 @@
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 36px;
-grid-row-gap: 36px;
+grid-column-gap: 2.25rem; /* 36px */
+grid-row-gap: 2.25rem; /* 36px */
 }
 .center-ts{
   background-color: rgb(254, 241, 238);
 }
 .center-ts .parent {
-  max-width: 1200px;   
+  max-width: 75rem;   /* 1200px */
   width: 100%;         
   margin-left: auto;
   margin-right: auto;
-  padding: 0 24px;
+  padding: 0 1.5rem; /* 0 24px */
 
 }
 .text-wrapper2{
@@ -365,7 +368,7 @@ grid-row-gap: 36px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 18px;
+  gap: 1.125rem; /* 18px */
   h2{
     font-size: 2.5rem;
 
@@ -377,7 +380,7 @@ grid-row-gap: 36px;
   align-items: center;
   cursor: pointer;
   background-color: rgb(217, 20, 0);
-  padding: 16px;
+  padding: 1rem; /* 16px */
   border-radius: 50px;
   width: fit-content;
   align-self: center;
@@ -388,52 +391,47 @@ grid-row-gap: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
+  margin: 6.25rem auto; /* 100px */
   font-size: 1.5rem;
 }
 .neighborhood-section {
-  max-width: 1250px;
-  margin: 50px auto 0 auto;
-  padding: 0 32px 48px 32px;
+  max-width: 78.125rem; /* 1250px */
+  margin: 3.125rem auto 0 auto; /* 50px */
+  padding: 0 2rem 3rem 2rem; /* 0 32px 48px 32px */
   background: #fff;
   text-align: center;
 }
 .neighborhood-section h2 {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem; /* 24px */
 }
 
 .tabs {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 5rem; /* 80px */
   border-bottom: 2px solid #e7e7e7;
-  margin-bottom: 16px;
+  margin-bottom: 1rem; /* 16px */
 }
 .tab {
   font-weight: 600;
   font-size: 1.25rem;
   color: #888;
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem; /* 8px */
   cursor: pointer;
   transition: color 0.18s;
   border-bottom: 2px solid transparent;
 }
-.tab.active {
-  color: #111;
-  border-bottom: 2px solid #111;
-}
-
 .tab-content {
-  margin-top: 18px;
+  margin-top: 1.125rem; /* 18px */
 }
 .city-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px 64px;
+  gap: 0.625rem 4rem; /* 10px 64px */
   justify-content: center;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem; /* 24px */
 }
 .city-grid ul {
   list-style: none;
@@ -444,18 +442,18 @@ grid-row-gap: 36px;
 .city-grid li {
   font-size: 1.18rem;
   color: #181818;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem; /* 15px */
 }
 
 .see-less {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 0.625rem; /* 10px */
   font-size: 1.5rem;
   font-weight: bold;
   color: #151515;
-  margin-top: 20px;
+  margin-top: 1.25rem; /* 20px */
   cursor: pointer;
 }
 .see-less .chevron {
@@ -473,28 +471,28 @@ grid-row-gap: 36px;
   background: #181818;
   color: #fff;
   width: 100%;
-  padding: 48px 0;
+  padding: 3rem 0; /* 48px 0 */
   font-family: 'Segoe UI', Arial, sans-serif;
   font-size: 1.02rem;
 }
 
 .footer-content {
-  max-width: 1300px;
+  max-width: 81.25rem; /* 1300px */
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 2rem; /* 0 32px */
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 58px 32px;
-  margin-bottom: 56px;
+  gap: 3.625rem 2rem; /* 58px 32px */
+  margin-bottom: 3.5rem; /* 56px */
 }
 
 .footer-grid h4 {
   font-size: 1.13rem;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem; /* 12px */
   color: #fff;
 }
 
@@ -505,7 +503,7 @@ grid-row-gap: 36px;
 }
 
 .footer-grid li {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem; /* 8px */
   color: #e2e2e2;
   font-size: 1.02rem;
 }
@@ -513,14 +511,14 @@ grid-row-gap: 36px;
 .footer-links-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 42px 32px;
+  gap: 2.625rem 2rem; /* 42px 32px */
   align-items: flex-start;
 }
 
 .footer-links-section h4 {
   font-size: 1.13rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem; /* 10px */
 }
 
 .footer-links-section ul {
@@ -530,7 +528,7 @@ grid-row-gap: 36px;
 }
 
 .footer-links-section li {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem; /* 8px */
   color: #e2e2e2;
   font-size: 1.02rem;
 }
@@ -540,22 +538,22 @@ grid-row-gap: 36px;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 24px;
-  margin-top: 12px;
+  gap: 1.5rem; /* 24px */
+  margin-top: 0.75rem; /* 12px */
 }
 
 .app-store-btn {
-  width: 180px;
-  margin-top: 12px;
+  width: 11.25rem; /* 180px */
+  margin-top: 0.75rem; /* 12px */
   background: transparent;
   border-radius: 6px;
 }
 .footer-bottom-bar {
   background: #181818;
   color: #fff;
-  padding: 0 48px;
+  padding: 0 3rem; /* 0 48px */
   width: 100%;
-  min-height: 60px;
+  min-height: 3.75rem; /* 60px */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -566,20 +564,20 @@ grid-row-gap: 36px;
 .footer-bottom-left {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 1.75rem; /* 28px */
   flex-wrap: wrap;
 }
 .footer-bottom-left .mini-logo {
-  width: 38px;
+  width: 2.375rem; /* 38px */
   height: auto;
   filter: brightness(0) invert(1);
-  margin-right: 10px;
+  margin-right: 0.625rem; /* 10px */
 }
 .footer-bottom-left a,
 .footer-bottom-left span {
   color: #ddd;
   text-decoration: none;
-  margin-right: 4px;
+  margin-right: 0.25rem; /* 4px */
   transition: color 0.18s;
   font-size: 1.04rem;
 }
@@ -592,20 +590,20 @@ grid-row-gap: 36px;
 .footer-bottom-right {
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 1.625rem; /* 26px */
 }
 
 .lang-select {
   background: #fff;
   color: #181818;
-  border-radius: 32px;
+  border-radius: 2rem; /* 32px */
   font-weight: 500;
-  padding: 7px 22px 7px 16px;
+  padding: 0.4375rem 1.375rem 0.4375rem 1rem; /* 7px 22px 7px 16px */
   font-size: 1.05rem;
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-right: 18px;
+  gap: 0.5rem; /* 8px */
+  margin-right: 1.125rem; /* 18px */
   cursor: pointer;
 }
 .lang-select .globe-icon {
@@ -615,12 +613,12 @@ grid-row-gap: 36px;
   display: inline-block;
   font-size: 1.13rem;
   transform: rotate(180deg);
-  margin-left: 3px;
+  margin-left: 0.1875rem; /* 3px */
 }
 
 .icon-social {
-  width: 26px;
-  height: 26px;
+  width: 1.625rem; /* 26px */
+  height: 1.625rem; /* 26px */
   filter: brightness(0) invert(0.7);
   transition: filter 0.18s;
   opacity: 0.9;
